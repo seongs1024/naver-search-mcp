@@ -18,6 +18,7 @@ RUN npm run build
 
 # Set production environment
 ENV NODE_ENV=production
+EXPOSE 8080
 
 # Command to run the server
-CMD [ "node", "dist/src/index.js" ] 
+CMD [ "node", "dist/src/index.js" ]
